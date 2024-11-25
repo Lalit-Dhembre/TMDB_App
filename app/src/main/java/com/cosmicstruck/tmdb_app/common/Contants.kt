@@ -1,0 +1,10 @@
+package com.cosmicstruck.tmdb_app.common
+
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
+const val API_KEY = "fd491534bda16bcb57a701e23a96ad47"
+
+const val READ_ACCESS_TOKENS = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZDQ5MTUzNGJkYTE2YmNiNTdhNzAxZTIzYTk2YWQ0NyIsIm5iZiI6MTczMjUwOTc2MC45MzY5NzcxLCJzdWIiOiI2NmFhM2QwNzljNTFhNDg3ZGJhMTBkODgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.4iS-QP_BY_AwOrguudTK0QrkRBdHazAeDTqfA_mXwl4"
+
+const val BASE_URL = "https://api.themoviedb.org/3/"
